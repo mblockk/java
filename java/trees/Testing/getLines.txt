@@ -1,0 +1,7 @@
+Binary file AvlTree.class matches
+AvlTree.java:393:    public List getLinesForWord (String word){
+AvlTree.java:397:    return getLinesForWord(word, root);    
+AvlTree.java:402:    private List getLinesForWord( String x, AvlNode t){ 
+Problem2.java:34://System.out.println(tree.getLinesForWord("frankenstein"));
+README.md:37:* Write the method public List getLinesForWord(String word) that looks up a word and returns a list of lines in which it occurs.
+script.sh:7:grep -rni "getLinesfor" * > getLines.txt

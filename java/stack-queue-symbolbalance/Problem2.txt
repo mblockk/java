@@ -1,0 +1,8 @@
+Michael Block - mb4239
+
+The enqueue operation of my Two Stack Queue is O(1) because it is simply adding
+a file to the top of the stack which already has a reference in java's Linked List
+class. The dequeue operation is, in the worst case, O(N), but only when the dequeue
+stack is empty. When it is empty, S2 has to push each of S1's popped elements on to
+itself. But, when it has elements already, each call to dequeue is O(1) because
+it simply pops one from the top of the dequeue stack. 

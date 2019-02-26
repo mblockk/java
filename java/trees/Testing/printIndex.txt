@@ -1,0 +1,11 @@
+Binary file AvlTree.class matches
+AvlTree.java:417:    public void printIndex(){
+AvlTree.java:419:    printIndex(root);
+AvlTree.java:423:    private void printIndex(AvlNode p){
+AvlTree.java:425:        printIndex(p.left);
+AvlTree.java:427:        printIndex(p.right);
+Binary file Problem2.class matches
+Problem2.java:33:tree.printIndex();
+README.md:38:* Write the method public void printIndex() the prints out each unique word that is stored in the Avl tree along with a list of line numbers in which that word appears.
+README.md:42:Finally, the main method in Problem2.java should create an instance of your AvlTree and uses it to indexes the words contained in a text file (provided to the program as a command line argument). Ignore case in the input text (insert everything as lower case), and ignore all punctuation. When indexing has finished, the program should call the printIndex method to display a list of unique words in the text file and the line numbers in which that word occurs. 
+script.sh:6:grep -rni "printIndex" * > printIndex.txt

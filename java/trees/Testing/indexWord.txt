@@ -1,0 +1,8 @@
+Binary file AvlTree.class matches
+AvlTree.java:387:    public void indexWord(String word, int line){
+Binary file Problem2.class matches
+Problem2.java:28:            tree.indexWord(words[i], lineNumber);
+README.md:36:* Write the method public void ```indexWord(String word, int line)``` that adds an occurrence of the word ```word``` in line ```line```. If a word already exists in the AVL Tree, simply add the new line number to the existing node. If a word appears on the same line twice, it should only have one entry in the list for that line.
+STUDENTREADME.md:15:simpler. I wasn't sure what to do with the indexWord method, so I
+STUDENTREADME.md:16:just had it call insert. My Problem2.java uses the indexWord method to
+script.sh:8:grep -rni "indexWord" * > indexWord.txt
